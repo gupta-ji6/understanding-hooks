@@ -1,0 +1,60 @@
+*,
+body,
+html {
+  box-sizing: border-box;
+  margin: 0;
+  max-height: 100vh;
+}
+
+.App {
+  font-family: sans-serif;
+}
+
+.header {
+  background-color: #3b5998;
+  margin: 0;
+  padding: 10px;
+  height: 44px;
+  color: white;
+  width: 100vw;
+  font-size: 24px;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+button {
+  width: 20px;
+  text-align: center;
+  margin: 5px;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+}
+
+button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.num {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.image {
+  width: 60vw;
+  height: auto;
+  padding: 20px;
+  margin: 0 auto;
+}
